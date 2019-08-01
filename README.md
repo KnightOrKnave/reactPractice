@@ -40,6 +40,8 @@ ComponentはアクションとStoreを見て、必要なReduceの状態やアク
 外套のReducerが変わったら使ってるコンポーネントにSetStateかけるとかそんな感じじゃないかな
 
 
+
+
 登場人物
 Store
 Reducer
@@ -59,3 +61,10 @@ APIたたくのには　axciosというの使ってる
 readtではないが　bindやdispatchなどJavascriptの構文あろうものでも、あまり見ないものを
 使うことになりそう
 
+
+
+
+Saga触った感想
+2，3時間くらい触った
+動いたのは　Action監視　→　Saga動く　→　別のAction(Reducer)にPUTする感じ
+正しいのかわからない
